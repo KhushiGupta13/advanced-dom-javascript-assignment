@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Todo App</h1>
+
+  <input type="text" id="newTodo" placeholder="Add new todo...">
+  <button id="addBtn">Add</button>
+
+  <br><br>
+
+  <input type="text" id="search" placeholder="🔍 Search todos...">
+
+  <div>
+    Filter:
+    <button class="filter-btn" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="active">Active</button>
+    <button class="filter-btn" data-filter="completed">Completed</button>
+  </div>
+
+  <h2>📝 Todo List</h2>
+  <div id="todoList">No todos yet</div>
+  <p id="counter"></p>
+
+  <script src="script.js"></script>
+
+  <footer>
+  <p>Made by Khushi Gupta</p>
+</footer>
+
+</body>
+</html>

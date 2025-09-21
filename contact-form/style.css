@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 8px;
+  margin-top: 4px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.message-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.message-card small {
+  display: block;
+  color: gray;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  padding: 5px;
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}

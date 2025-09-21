@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#newTodo, #search {
+  padding: 8px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 6px 12px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.todo-item span {
+  margin-left: 8px;
+}
+
+.delete-btn {
+  margin-left: auto;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
